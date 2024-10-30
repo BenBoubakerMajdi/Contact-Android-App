@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <!-- Content layout -->
+    <LinearLayout
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:gravity="center_vertical">
+
+        <!-- Circular profile image -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/contact_profile_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/profile_img"
+            app:shapeAppearanceOverlay="@style/CircleImageViewStyle"
+            android:scaleType="centerCrop" />
+
+        <!-- Contact details (name and phone) in a vertical layout -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/contact_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Name"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/contact_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone Number"
+                android:textSize="16sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@android:color/darker_gray" />
+
+        </LinearLayout>
+
+        <!-- Icons for phone call, edit, and delete -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end|center_vertical">
+
+            <!-- Phone call icon -->
+            <ImageButton
+                android:id="@+id/btn_call"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Call Contact"
+                android:padding="8dp"
+                android:src="@drawable/ic_call"
+                app:tint="@color/teal_700" />
+
+<!--            &lt;!&ndash; Edit icon &ndash;&gt;-->
+<!--            <ImageButton-->
+<!--                android:id="@+id/btn_edit"-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:background="?attr/selectableItemBackgroundBorderless"-->
+<!--                android:padding="8dp"-->
+<!--                android:src="@drawable/ic_edit"-->
+<!--                android:contentDescription="Edit Contact"-->
+<!--                app:tint="@color/colorPrimary" />-->
+
+<!--            &lt;!&ndash; Delete icon &ndash;&gt;-->
+<!--            <ImageButton-->
+<!--                android:id="@+id/btn_delete"-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:background="?attr/selectableItemBackgroundBorderless"-->
+<!--                android:contentDescription="Delete Contact"-->
+<!--                android:padding="8dp"-->
+<!--                android:src="@drawable/ic_delete"-->
+<!--                app:tint="@color/colorError" />-->
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Divider line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

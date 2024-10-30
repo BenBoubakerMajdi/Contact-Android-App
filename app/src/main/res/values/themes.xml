@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Theme.GestionContact" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/purple_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Accent color. -->
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Background and surface colors. -->
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorTextPrimary</item>
+
+        <!-- Text colors. -->
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondary</item>
+
+        <!-- Error color. -->
+        <item name="colorError">@color/colorError</item>
+        <item name="colorOnError">@color/white</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- Navigation bar color. -->
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="redBorderedBtn" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/red_bordered</item>
+        <item name="android:textColor">@color/colorError</item>
+    </style>
+
+    <!-- Circle ImageView style for profile picture. -->
+    <style name="CircleImageViewStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item> <!-- Makes the image fully circular -->
+    </style>
+
+    <!-- Define the PopupOverlay style. -->
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents">
+        <item name="colorSurface">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:popupElevation">4dp</item>
+    </style>
+
+</resources>

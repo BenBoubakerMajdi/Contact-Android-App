@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Contact App</string>
+
+    <!--    Login Strings   -->
+    <string name="contact_app_image">Contact App Image</string>
+    <string name="hint_username">Enter your usernanme</string>
+    <string name="hint_password">Enter your password</string>
+    <string name="login_btn_text">Login</string>
+    <string name="exit_btn_text">Exit</string>
+    <string name="not_registered_yet">Don\'t have an account?</string>
+    <string name="registered">Already have an account?</string>
+
+    <string name="signup_now">Signup here.</string>
+    <string name="login_now">login here.</string>
+
+
+    <string name="profile_image_description">contact profile image</string>
+
+</resources>

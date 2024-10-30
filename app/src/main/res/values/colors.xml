@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary and Accent Colors for Modern UI -->
+    <color name="colorPrimary">#3A86FF</color>         <!-- Vivid Blue -->
+    <color name="colorPrimaryDark">#265DAB</color>     <!-- Darker Shade of Primary -->
+    <color name="colorAccent">#FFBE0B</color>          <!-- Bright Yellow (Accent) -->
+    <color name="colorSecondary">#8338EC</color>       <!-- Purple for Secondary Elements -->
+
+    <!-- Background and Surface Colors -->
+    <color name="colorBackground">#FAFAFA</color>      <!-- Soft Light Gray for Background -->
+    <color name="colorSurface">#F2F2F2</color>         <!-- Slightly Darker for Surface Elements -->
+
+    <!-- Text Colors -->
+    <color name="colorTextPrimary">#2E2E2E</color>     <!-- Darker Gray for Primary Text -->
+    <color name="colorTextSecondary">#6E6E6E</color>   <!-- Medium Gray for Secondary Text -->
+
+    <!-- Error Color -->
+    <color name="colorError">#E63946</color>           <!-- Soft Red for Errors -->
+
+    <!-- Supporting Colors -->
+    <color name="purple_200">#D4A5FF</color>           <!-- Light Purple for Highlights -->
+    <color name="purple_500">#9B5DE5</color>           <!-- Mid-tone Purple for Buttons -->
+    <color name="purple_700">#6B2D92</color>           <!-- Dark Purple for Depth -->
+    <color name="teal_200">#B0F4E6</color>             <!-- Soft Teal for Subtle Highlights -->
+    <color name="teal_700">#057377</color>             <!-- Deep Teal for Accent Items -->
+
+    <!-- Essential Colors -->
+    <color name="black">#000000</color>                <!-- Black for High Contrast Elements -->
+    <color name="white">#FFFFFF</color>                <!-- White for Clean, Crisp Look -->
+
+</resources>
